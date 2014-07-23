@@ -8,8 +8,7 @@
 #
 
 yum = node['repomanager']['yum']
-region = find_repo_region()
-repoList = Repomanager.getYumServer(region)
+repoList = Repomanager.getYumServer()
 
 repomanager_repository "Mrigesh Priyadarshi" do
   	description "Mrigesh Priyadarshi INC  #{node['platform'].capitalize}-#{node['platform_version']}-#{node['kernel']['machine']}"

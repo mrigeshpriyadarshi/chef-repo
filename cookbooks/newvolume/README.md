@@ -1,6 +1,6 @@
 newvolume Cookbook
 ===========================
-TODO: Enter the cookbook description here.
+This cookbook Mounts and formats attached disk on any machine on both Linux and OS.
 
 e.g.
 This cookbook makes your favorite breakfast sandwhich.
