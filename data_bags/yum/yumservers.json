@@ -1,0 +1,19 @@
+{
+  "id": "yumservers",
+  "10.21": [
+    "usrepo1",
+    "usrepo2"
+  ],
+  "10.22": [
+    "sgrepo1",
+    "sgrepo2"
+  ],
+  "10.23": [
+    "irrepo1",
+    "irrepo2"
+  ],
+  "10.24": [
+    "eurepo1",
+    "eurepo2"
+  ]
+}
