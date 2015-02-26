@@ -1,6 +1,6 @@
-alert_email Cookbook
+Alert_email Cookbook
 ======================
-Cookbook configures Mail Handler which send mails on names specified in the Data Bag.
+Cookbook configures Mail Handler which send mails on names specified in the Recipient Attribute.
 
 1.   The cookbook, as of now supports, redhat family Operating Systems.
 2.   The cookbook installs as root user and group on system level.
