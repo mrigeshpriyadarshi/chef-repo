@@ -2,7 +2,20 @@
 # Cookbook Name:: repomanager
 # Provider:: repository
 #
-# Copyright 2014, mrigeshpriyadarshi@gmail.com
+# Copyright 2014, Mrigesh Priyadarshi
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
 #
 
 def whyrun_supported?
@@ -71,8 +84,9 @@ def repo_config
 
   #write out the file
   template "#{new_resource.dirname}/#{new_resource.repo_name}.repo" do
+    cookbook "repomanager"
     source "repo.erb"
-    mode "0644"
+    mode 00644
     variables({
                 :repo_name => new_resource.repo_name,
                 :description => new_resource.description,
