@@ -7,6 +7,10 @@ This file is used to list changes made in each version of the alert_email cookbo
 -----
 - [Mrigesh] - Initial release of alert_email
 
+0.1.1
+-----
+- [Mrigesh] - Updated Licence
+
 - - -
 Check the [Markdown Syntax Guide](http://daringfireball.net/projects/markdown/syntax) for help with Markdown.
 

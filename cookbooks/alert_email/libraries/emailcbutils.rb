@@ -1,5 +1,5 @@
 #
-# Cookbook Name:: intl_sys_java
+# Cookbook Name:: alert_email
 # Library:: emailcbutils
 #
 # Copyright 2014, Mrigesh Priyadarshi
