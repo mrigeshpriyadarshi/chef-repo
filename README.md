@@ -1,4 +1,4 @@
-github-chef-repo
+chef-repo
 ================
 
-My Chef Work
+My Chef Cookbooks with Apache Licence
